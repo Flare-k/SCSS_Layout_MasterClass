@@ -2,9 +2,7 @@
   display: flex;
   /* Main Axis */
   justify-content: space-around;
-  align-content: flex-start;
-  height: 200vh;
-  flex-wrap: wrap;
+  height: 100vh;
 }
 .child {
   width: 200px;
@@ -16,4 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.child:nth-child(2) {
+  background: #000;
+  flex-shrink: 2;
 }
