@@ -2,8 +2,9 @@
   display: flex;
   /* Main Axis */
   justify-content: space-around;
-  height: 100vh;
-  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+  height: 200vh;
+  flex-wrap: wrap;
 }
 .child {
   width: 200px;
