@@ -1,16 +1,27 @@
-.father {
+.grid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  column-gap: 10px;
-  row-gap: 10px;
+  grid-template-columns: repeat(4, 200px);
+  /* grid-template-columns: 200px 200px 200px 200px; */
+  grid-template-rows: 100px repeat(2, 200px) 100px;
+  grid-template-areas:
+    "header header header header"
+    "content content content nav"
+    "content content content nav"
+    "footer footer footer footer";
 }
-.child {
-  flex-basis: 30%;
-  background: peru;
-  color: white;
-  font-size: 50px;
-  /*텍스트가 가운데 오게하기 위해서 child도 flex로 만들어준다.*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header {
+  background-color: #2ecc71;
+  grid-area: header; /* area name을 써준다.*/
+}
+.content {
+  background-color: #3498db;
+  grid-area: content;
+}
+.nav {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+.footer {
+  background-color: #f39c12;
+  grid-area: footer;
 }
