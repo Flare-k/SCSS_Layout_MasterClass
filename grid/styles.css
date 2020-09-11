@@ -10,6 +10,8 @@
 }
 .header {
   background-color: hsl(145, 63%, 49%);
+  align-self: end;
+  justify-self: center;
 }
 .content {
   background-color: #3498db;

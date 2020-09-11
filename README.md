@@ -37,15 +37,15 @@
 - [x] grid-column
 - [x] grid-row
 - [x] grid-template
-- [ ] justify-items
-- [ ] align-items
-- [ ] place-items
-- [ ] justify-content
-- [ ] align-content
-- [ ] place-content
-- [ ] justify-self
-- [ ] align-self
-- [ ] place-self
+- [x] justify-items
+- [x] align-items
+- [x] place-items
+- [x] justify-content
+- [x] align-content
+- [x] place-content
+- [x] justify-self
+- [x] align-self
+- [x] place-self
 - [ ] grid-auto-rows
 - [ ] grid-auto-flow
 - [ ] grid-auto-columns
