@@ -1,1 +1,1 @@
-body{background:peru}.box button,body a{color:#00f}.box{margin-top:20px}.box:hover{background-color:gray}.box h2{color:#e7473c}button{color:green}
+a{margin-bottom:10px}a:nth-child(even),a:nth-child(odd){text-decoration:none;display:block;color:#00f}a:nth-child(even){color:red}
